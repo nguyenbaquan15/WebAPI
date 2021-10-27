@@ -1,0 +1,75 @@
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.deps.json
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.json
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.dev.json
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.AssemblyReference.cache
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfoInputs.cache
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfo.cs
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock1\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.genruntimeconfig.cache
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.deps.json
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.json
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.dev.json
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.AssemblyReference.cache
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfoInputs.cache
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfo.cs
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock1 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.genruntimeconfig.cache
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.deps.json
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.json
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.dev.json
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.AssemblyReference.cache
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfoInputs.cache
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfo.cs
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v2 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.genruntimeconfig.cache
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.deps.json
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.json
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.dev.json
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.AssemblyReference.cache
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfoInputs.cache
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfo.cs
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.genruntimeconfig.cache
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.deps.json
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.json
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.runtimeconfig.dev.json
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\bin\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.AssemblyReference.cache
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfoInputs.cache
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.AssemblyInfo.cs
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\ref\CoreApp.Model.dll
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.pdb
+C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Model\obj\Debug\net5.0\CoreApp.Model.genruntimeconfig.cache
