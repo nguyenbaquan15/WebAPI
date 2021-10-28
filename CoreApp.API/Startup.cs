@@ -54,6 +54,7 @@ namespace CoreApp.API
             //services.AddSingleton<CoreAppDbContext>();
             services.AddScoped<CoreAppDbContext>();
 
+            services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<ICarService, CarService>();
             services.AddTransient<IBookingOfficeService, BookingOfficeService>();
@@ -124,8 +125,9 @@ namespace CoreApp.API
                 };
             });
 
-            services.AddSingleton<IAuthencationService>(new AuthencationService(tokenKey));
+            //services.AddSingleton<IAuthenticationService>(new AuthencationService(tokenKey));
 
+            
 
             /*-----------------------------------------------------------------------------------------*/
         }

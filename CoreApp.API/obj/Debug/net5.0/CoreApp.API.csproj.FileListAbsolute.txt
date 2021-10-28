@@ -325,7 +325,6 @@ C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.API\obj\Debug\net5.0\CoreApp.API.dl
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.API\obj\Debug\net5.0\ref\CoreApp.API.dll
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.API\obj\Debug\net5.0\CoreApp.API.pdb
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.API\obj\Debug\net5.0\CoreApp.API.genruntimeconfig.cache
-C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.API\obj\Debug\net5.0\CoreApp.API.csproj.CopyComplete
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.API\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.API\bin\Debug\net5.0\appsettings.json
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.API\bin\Debug\net5.0\CoreApp.API.exe

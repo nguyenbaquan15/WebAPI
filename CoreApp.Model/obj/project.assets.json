@@ -5871,11 +5871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
+      "projectUniqueName": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
       "projectName": "CoreApp.Model",
-      "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
+      "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
       "packagesPath": "C:\\Users\\quan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\obj\\",
+      "outputPath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quan\\AppData\\Roaming\\NuGet\\NuGet.Config",

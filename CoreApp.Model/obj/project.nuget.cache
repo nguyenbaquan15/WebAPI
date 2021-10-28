@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4A87PbQzEeN+RdptUEqr68GvKwUjcK+odBaslllnfEXDaqJkS+3HOi17FNSHTr8xc3zxAgV4mU4IwZH8bzrXEg==",
+  "dgSpecHash": "piXUZZxY9/oBZkbqWA/4P3DvSiBc88EpPzLH/vV4iYDgb5W3dlkpLJlAfPFa0pr8ESo5AS1kmqhAYiz9bAyJCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
+  "projectFilePath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\quan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

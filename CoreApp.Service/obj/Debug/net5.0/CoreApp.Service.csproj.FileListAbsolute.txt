@@ -70,7 +70,6 @@ C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Service\obj\Debug\net5.0\CoreApp.Se
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Service\obj\Debug\net5.0\CoreApp.Service.dll
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Service\obj\Debug\net5.0\ref\CoreApp.Service.dll
 C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Service\obj\Debug\net5.0\CoreApp.Service.pdb
-C:\Users\quan\Desktop\Mock_v3\WebAPI\CoreApp.Service\obj\Debug\net5.0\CoreApp.Service.csproj.CopyComplete
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Service\bin\Debug\net5.0\CoreApp.Service.deps.json
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Service\bin\Debug\net5.0\CoreApp.Service.dll
 C:\Users\quan\Desktop\Mock_v3 - Copy\WebAPI\CoreApp.Service\bin\Debug\net5.0\ref\CoreApp.Service.dll

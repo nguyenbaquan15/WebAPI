@@ -47,6 +47,12 @@ namespace CoreApp.Model.Respository
 
         }
 
+        public IEnumerable<TEntity> FindByCondition(Expression<Func<TEntity, bool>> expression)
+        {
+            return _dbContext.Set<TEntity>().Where(expression);
+        }
+
+
         public async Task Update(TEntity entity)
         {
             // Update data to SQl Server

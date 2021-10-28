@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,6 +20,8 @@ namespace CoreApp.Model.Respository
 
         // Find by Id
         public Task<TEntity> FindId(int Id);
+
+        public IEnumerable<TEntity> FindByCondition(Expression<Func<TEntity, bool>> expression);
 
         // Update data to SQl Server
         public Task Update(TEntity entity);

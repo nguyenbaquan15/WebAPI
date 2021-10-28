@@ -1,4 +1,6 @@
-﻿using CoreApp.Service.Interface;
+﻿using CoreApp.Model.DTO.Request;
+using CoreApp.Model.DTO.Response;
+using CoreApp.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,9 +17,9 @@ namespace CoreApp.API.Controllers
 
     public class AuthencationController : ControllerBase
     {
-        private readonly IAuthencationService _authencationService;
+        private readonly IAuthenticationService _authencationService;
 
-        public AuthencationController(IAuthencationService authencationService)
+        public AuthencationController(IAuthenticationService authencationService)
         {
             _authencationService = authencationService;
         }
@@ -25,22 +27,10 @@ namespace CoreApp.API.Controllers
 
         [AllowAnonymous]
         [HttpPost("authenticate")]
-        public IActionResult Authenticate([FromBody] UserCred userCred)
+        public async Task<ActionResult<LoginResponseDto>> Login(LoginRequestDto request)
         {
-            var token = _authencationService.Authenticate(userCred.Username, userCred.Password);
-
-            if (token == null)
-                return Unauthorized();
-
-            return Ok(token);
-
+            return await _authencationService.Login(request);
         }
 
-
-        public class UserCred
-        {
-            public string Username { get; set; }
-            public string Password { get; set; }
-        }
     }
 }

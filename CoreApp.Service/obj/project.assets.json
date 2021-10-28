@@ -5998,11 +5998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Service\\CoreApp.Service.csproj",
+      "projectUniqueName": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Service\\CoreApp.Service.csproj",
       "projectName": "CoreApp.Service",
-      "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Service\\CoreApp.Service.csproj",
+      "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Service\\CoreApp.Service.csproj",
       "packagesPath": "C:\\Users\\quan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Service\\obj\\",
+      "outputPath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6019,8 +6019,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj": {
-              "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3 - Copy\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj"
+            "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj": {
+              "projectPath": "C:\\Users\\quan\\Desktop\\Mock_v3\\WebAPI\\CoreApp.Model\\CoreApp.Model.csproj"
             }
           }
         }
