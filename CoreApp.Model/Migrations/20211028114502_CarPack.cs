@@ -13,15 +13,15 @@ namespace CoreApp.Model.Migrations
                 {
                     EmployeeId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Fullname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Fullname = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Sex = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Account = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Department = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Sex = table.Column<string>(type: "varchar(10)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "varchar(20)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(30)", nullable: false),
+                    Account = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    Department = table.Column<string>(type: "nvarchar(50)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -34,10 +34,11 @@ namespace CoreApp.Model.Migrations
                 {
                     PackingLotId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Packinglot = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Place = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Area = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Price = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Packinglot = table.Column<string>(type: "nvarchar(30)", nullable: false),
+                    Place = table.Column<string>(type: "nvarchar(30)", nullable: false),
+                    Area = table.Column<string>(type: "nvarchar(30)", nullable: false),
+                    Price = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(30)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,10 +51,10 @@ namespace CoreApp.Model.Migrations
                 {
                     TripId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Destination = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Destination = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     DepartureTime = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Driver = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CarType = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Driver = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    CarType = table.Column<string>(type: "nvarchar(50)", nullable: true),
                     MaximumOnlineTicket = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DepartureDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -63,14 +64,29 @@ namespace CoreApp.Model.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Role = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Cars",
                 columns: table => new
                 {
-                    LicensePlate = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    LicensePlate = table.Column<string>(type: "varchar(20)", nullable: false),
                     CarId = table.Column<int>(type: "int", nullable: false),
-                    CarType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CarColor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Company = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CarType = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    CarColor = table.Column<string>(type: "nvarchar(20)", nullable: false),
+                    Company = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     PackingLotId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -90,11 +106,11 @@ namespace CoreApp.Model.Migrations
                 {
                     BookingOfficeId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     TripId = table.Column<int>(type: "int", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "varchar(10)", nullable: false),
                     Price = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Place = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Place = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     Deadline = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -114,9 +130,9 @@ namespace CoreApp.Model.Migrations
                 {
                     TicketId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Customer = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Customer = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     BookingTime = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LicensePlate = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    LicensePlate = table.Column<string>(type: "varchar(20)", nullable: false),
                     TripId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -167,6 +183,9 @@ namespace CoreApp.Model.Migrations
 
             migrationBuilder.DropTable(
                 name: "Tickets");
+
+            migrationBuilder.DropTable(
+                name: "Users");
 
             migrationBuilder.DropTable(
                 name: "Cars");

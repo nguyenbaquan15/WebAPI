@@ -26,7 +26,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Packing Lot")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreatePackingLot(PackingLotRequestDto packingLot)
         {
             var _response = await _packingLotService.CreatePackingLot(packingLot).ConfigureAwait(false);
@@ -34,7 +35,7 @@ namespace CoreApp.API.Controllers
             return Ok(_response);
         }
 
-        [HttpGet("List-Packing Lot")]
+        [HttpGet("List-All")]
         public async Task<ActionResult<PackingLotResponseDto>> GetAllPackingLot()
         {
             var _response = await _packingLotService.GetAllPackingLot().ConfigureAwait(false);
@@ -42,7 +43,7 @@ namespace CoreApp.API.Controllers
             return Ok(_response);
         }
 
-        [HttpGet("Get-Packing Lot-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<PackingLotResponseDto>> GetPackingLotById(int Id)
         {
             var _response = await _packingLotService.GetPackingLotById(Id);
@@ -51,7 +52,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPut("Update-Packing Lot-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> UpdatePackingLot(int Id, PackingLotRequestDto packingLot)
         {
             var _response = await _packingLotService.UpdatePackingLot(Id, packingLot).ConfigureAwait(false);
@@ -60,7 +62,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Packing Lot-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeletePackingLot(int Id)
         {
             var _response = await _packingLotService.DeletePackingLot(Id).ConfigureAwait(false);

@@ -26,10 +26,18 @@ namespace CoreApp.API.Controllers
 
 
         [AllowAnonymous]
-        [HttpPost("authenticate")]
-        public async Task<ActionResult<LoginResponseDto>> Login(LoginRequestDto request)
+        [HttpPost("Login")]
+        public async Task<ActionResult<UserResponseDto>> Login(UserRequestDto request)
         {
             return await _authencationService.Login(request);
+        }
+
+
+        [AllowAnonymous]
+        [HttpPost("Sign up")]
+        public async Task<ActionResult<BaseResponse>> Signup(UserRequestDto request)
+        {
+            return await _authencationService.Signup(request);
         }
 
     }

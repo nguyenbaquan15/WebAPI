@@ -10,6 +10,7 @@ namespace CoreApp.Service.Interface
 {
     public interface IAuthenticationService
     {
-        public Task<LoginResponseDto> Login(LoginRequestDto request);
+        public Task<UserResponseDto> Login(UserRequestDto request);
+        public Task<BaseResponse> Signup(UserRequestDto request);
     }
 }

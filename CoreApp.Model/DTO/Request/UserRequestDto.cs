@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace CoreApp.Model.DTO.Request
 {
-    public class LoginRequestDto
+    public class UserRequestDto
     {
         public string Username { get; set; }
         public string Password { get; set; }
+        //public string Role { get; set; }
     }
+    
 }

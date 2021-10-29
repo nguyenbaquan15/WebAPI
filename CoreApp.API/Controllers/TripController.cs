@@ -27,7 +27,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Trip")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreateTrip(TripRequestDto trip)
         {
             var _response = await _tripService.CreateTrip(trip).ConfigureAwait(false);
@@ -36,7 +37,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("List-All-Trip")]
+        [HttpGet("List-All")]
         public async Task<ActionResult<TripResponseDto>> GetAllTrip()
         {
             var _response = await _tripService.GetAllTrip().ConfigureAwait(false);
@@ -45,7 +46,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-Trip-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<TripResponseDto>> GetTripById(int Id)
         {
             var _response = await _tripService.GetTripById(Id);
@@ -54,7 +55,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPut("Update-Trip-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> UpdateTrip(int Id, TripRequestDto trip)
         {
             var _response = await _tripService.UpdateTrip(Id, trip).ConfigureAwait(false);
@@ -63,7 +65,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Trip-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeleteTrip(int Id)
         {
             var _response = await _tripService.DeleteTrip(Id).ConfigureAwait(false);

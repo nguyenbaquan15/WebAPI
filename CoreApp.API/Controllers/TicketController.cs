@@ -26,7 +26,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Ticket")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreateTicket(TicketRequestDto ticket)
         {
             var _response = await _ticketService.CreateTicket(ticket).ConfigureAwait(false);
@@ -35,7 +36,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-Ticket-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<TicketResponseDto>> GetTicketById(int Id)
         {
             var _response = await _ticketService.GetTicketById(Id);
@@ -44,7 +45,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("List-All-Ticket")]
+        [HttpGet("List-All")]
         public async Task<ActionResult<TicketResponseDto>> GetAllTicket()
         {
             var _response = await _ticketService.GetAllTicket().ConfigureAwait(false);
@@ -53,7 +54,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPut("Update-Ticket-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> UpdateTicket(int Id, TicketRequestDto ticket)
         {
             var _response = await _ticketService.UpdateTicket(Id, ticket).ConfigureAwait(false);
@@ -62,7 +64,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Ticket-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeleteTicket(int Id)
         {
             var _response = await _ticketService.DeleteTicket(Id).ConfigureAwait(false);

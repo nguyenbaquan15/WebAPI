@@ -15,13 +15,13 @@ namespace CoreApp.Service.AutoMaper
         public MappingProfile()
         {
 
-            /*------------------------ Mapper BookingOffice ----------------------*/
+            /*------------------------ Mapper User ----------------------*/
 
-            CreateMap<Employee, LoginRequestDto>();
-            CreateMap<LoginRequestDto, Employee>();
+            CreateMap<User, UserRequestDto>();
+            CreateMap<UserRequestDto, User>();
 
-            CreateMap<Employee, LoginResponseDto>();
-            CreateMap<LoginResponseDto, Employee>();         
+            CreateMap<User, UserResponseDto>();
+            CreateMap<UserResponseDto, User>();         
 
             /*--------------------------------------------------------------------*/
 

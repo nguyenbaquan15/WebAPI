@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreApp.Model.DTO.Response
 {
-    public class LoginResponseDto : BaseResponse
+    public class UserResponseDto : BaseResponse
     {
         public string Token { get; set; }
     }

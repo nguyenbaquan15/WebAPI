@@ -26,7 +26,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Employee")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreateEmployee(EmployeeRequestDto employee)
         {
             var _response = await _employeeService.CreateEmployee(employee).ConfigureAwait(false);
@@ -35,7 +36,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-All-Employee")]
+        [HttpGet("Get-All")]
         public async Task<ActionResult<EmployeeResponseDto>> GetAllEmployee()
         {
             var _response = await _employeeService.GetAllEmployee().ConfigureAwait(false);
@@ -44,7 +45,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-Employee-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<EmployeeResponseDto>> GetEmpoyeeById(int Id)
         {
             var _response = await _employeeService.GetEmployeeById(Id);
@@ -53,7 +54,8 @@ namespace CoreApp.API.Controllers
 
         }
 
-        [HttpPut("Update-Employee-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> UpdateEmployee(int Id, EmployeeRequestDto employee)
         {
             var _response = await _employeeService.UpdateEmployee(Id, employee).ConfigureAwait(false);
@@ -62,7 +64,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Employee-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeleteEmployee(int Id)
         {
             var _response = await _employeeService.DeleteEmployee(Id).ConfigureAwait(false);

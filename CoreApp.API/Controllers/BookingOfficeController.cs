@@ -28,7 +28,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Booking Ofice")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreateBookingOffice(BookingOfficeRequestDto bookingOffice)
         {
             var _response = await _bookingOfficeService.CreateBooking(bookingOffice).ConfigureAwait(false);
@@ -37,7 +38,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("List-Booking Office")]
+        [HttpGet("List-All")]
         public async Task<ActionResult<BookingOfficeResponseDto>> GetAllBookingOffice()
         {
             var _response = await _bookingOfficeService.GetAllBooking().ConfigureAwait(false);
@@ -47,7 +48,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-Booking Office-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<BookingOfficeResponseDto>> GetBookingOfficeById(int Id)
         {
             var _response = await _bookingOfficeService.GetBookingById(Id);
@@ -56,7 +57,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPut("Update-Booking Office-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles="Admin")]
         public async Task<ActionResult<BaseResponse>> UpdateBookingOffice(int Id, BookingOfficeRequestDto bookingOffice)
         {
             var _response = await _bookingOfficeService.UpdateBooking(Id, bookingOffice).ConfigureAwait(false);
@@ -65,7 +67,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Booking Office-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeleteBookingOffice(int Id)
         {
             var _response = await _bookingOfficeService.DeleteBooking(Id).ConfigureAwait(false);

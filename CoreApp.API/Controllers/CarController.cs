@@ -27,7 +27,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPost("Add-Car")]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> CreateCar(CarRequestDto car)
         {
             var _respone = await _carService.CreateCar(car).ConfigureAwait(false);
@@ -37,7 +38,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("List-All-Car")]
+        [HttpGet("List-All")]
         public async Task<ActionResult<List<CarResponseDto>>> GetAllCar()
         {
             var _respone = await _carService.GetAllCar().ConfigureAwait(false);
@@ -47,7 +48,7 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpGet("Get-Car-ByID")]
+        [HttpGet("Get-ByID")]
         public async Task<ActionResult<CarResponseDto>> GetCarById(int Id)
         {
             var _respone = await _carService.GetCarById(Id);
@@ -57,7 +58,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpPut("Update-Car-ByID")]
+        [HttpPut("Update-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> UpdateCar(int Id, CarRequestDto car)
         {
             var _respone = await _carService.UpdateCar(Id, car).ConfigureAwait(false);
@@ -66,7 +68,8 @@ namespace CoreApp.API.Controllers
         }
 
 
-        [HttpDelete("Delete-Car-ByID")]
+        [HttpDelete("Delete-ByID")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<BaseResponse>> DeleteCar(int Id)
         {
             var _respone = await _carService.DeleteCar(Id).ConfigureAwait(false);

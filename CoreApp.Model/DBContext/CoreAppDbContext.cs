@@ -22,6 +22,7 @@ namespace CoreApp.Model.DBContext
         public DbSet<PackingLot> PackingLotS { get; set; }
         public DbSet<Trip> TripS { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {

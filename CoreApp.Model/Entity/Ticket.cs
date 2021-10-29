@@ -13,15 +13,18 @@ namespace CoreApp.Model.Entity
         public int TicketId { get; set; }
 
         [Required]
+        [Column(TypeName = "nvarchar(50)")]
         public string Customer { get; set; }
 
         [Required]
         public string BookingTime { get; set; }
 
         [Required]
+        [Column(TypeName = "varchar(20)")]
         [ForeignKey("Car")]
         public string LicensePlate { get; set; }
 
+        [Required]
         public int TripId { get; set; }                  
 
         public Trip Trip { get; set; }                  //foreign key
